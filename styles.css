@@ -161,6 +161,7 @@ body {
 
 .hero-content {
     animation: fadeInLeft 1s ease;
+    padding-left: 2rem;
 }
 
 .hero-title {
@@ -380,17 +381,21 @@ body {
     height: 250px;
     overflow: hidden;
     position: relative;
+    background-color: var(--bg-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: var(--transition-slow);
 }
 
 .project-card:hover .project-image img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .project-info {
