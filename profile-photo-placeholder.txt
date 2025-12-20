@@ -1,0 +1,14 @@
+INSTRUCCIONES PARA LA FOTO DE PERFIL:
+
+1. Toma una foto profesional de Martin
+2. Guárdala como "profile-photo.jpg"
+3. Colócala en esta carpeta (martin-portfolio/)
+4. Dimensiones recomendadas: 600x600 píxeles mínimo
+5. Formato: JPG o PNG
+6. Peso recomendado: menos de 500KB para carga rápida
+
+Si quieres usar otro nombre de archivo:
+- Abre index.html
+- Busca la línea: <img src="profile-photo.jpg"
+- Cambia "profile-photo.jpg" por el nombre de tu archivo
+
